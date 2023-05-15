@@ -50,11 +50,8 @@ def execute_command():
         speak("The time is " + datetime.datetime.now().strftime("%H:%M"))
     elif "how are you" in command:
         speak("I'm doing well, thank you for asking!")
-    elif "xvideos" in command:
-        speak("Okay")
-        webbrowser.open("https://www.xvideos.com")
     elif "weather" in command:
-        webbrowser.open("https://www.msn.com/en-us/weather/forecast/in-Dhaka,Bangladesh?loc=eyJsIjoiRGhha2EiLCJjIjoiQmFuZ2xhZGVzaCIsImkiOiJCRCIsImciOiJlbi11cyIsIngiOiI5MC42NTY2MDg1ODE1NDI5NyIsInkiOiIyMy4yMjkzMzE5NzAyMTQ4NDQifQ%3D%3D&weadegreetype=F&ocid=winp1taskbar&cvid=e6f97220629a4716ef498562efbc5a24")
+        webbrowser.open("https://www.msn.com/en-us/weather/forecast")
     else:
         speak("Sorry, I didn't understand that command. Can you please repeat?")
 
